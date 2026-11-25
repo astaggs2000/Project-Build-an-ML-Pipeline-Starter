@@ -8,7 +8,7 @@ def test_column_names(data: pd.DataFrame) -> None:
     Args:
         data: Input DataFrame to test
     """
-    expected_colums = [
+    expected_columns = [
         "id",
         "name",
         "host_id",
@@ -30,7 +30,7 @@ def test_column_names(data: pd.DataFrame) -> None:
     these_columns = data.columns.values
 
     # This also enforces the same order
-    assert list(expected_colums) == list(these_columns)
+    assert list(expected_columns) == list(these_columns)
 
 
 def test_neighborhood_names(data: pd.DataFrame) -> None:

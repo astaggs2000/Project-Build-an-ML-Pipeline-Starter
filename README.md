@@ -1,10 +1,14 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
-You are working for a property management company renting rooms and properties for short periods of 
-time on various rental platforms. You need to estimate the typical price for a given property based 
-on the price of similar properties. Your company receives new data in bulk every week. The model needs 
-to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
+This project implements an end-to-end machine learning pipeline for predicting short-term rental prices in New York City based on the characteristics and prices of similar properties.
 
-In this project you will build such a pipeline.
+The pipeline is designed to support weekly retraining as new rental data becomes available. It uses MLflow for workflow orchestration, Hydra for configuration management, Weights & Biases for experiment tracking and artifact management, and scikit-learn for Random Forest regression.
+
+## Project Links
+GitHub Repository: 
+https://github.com/astaggs2000/Project-Build-an-ML-Pipeline-Starter
+
+Public Weights & Biases Project: 
+https://wandb.ai/astaggs2000-western-governors-university/nyc_airbnb
 
 ## Table of contents
 
